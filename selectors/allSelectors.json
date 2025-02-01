@@ -1,0 +1,14 @@
+{
+    "linkedinurl": "https://www.linkedin.com/feed/",
+    "searchfield": "//input[@placeholder='Search']",
+    "jobsButton": "(//button[contains(.,'Jobs')])[1]",
+    "timeFilter": "//button[@id='searchFilter_timePostedRange']",
+    "24hours": "(//span[contains(.,'Past 24 hours')])[1]",
+    "ApplyFilters": "(//button[contains(@aria-label,'Apply current filter to show')])[1]",
+    "scrollToPagination": "(//div[@class='scaffold-layout__list '])[1]",
+    "AllDesignations": "//ul/li[contains(@class,'ember')]/descendant::a/descendant::strong",
+    "AllCompanies": "//ul/li[contains(@class,'ember')]/descendant::a/parent::div/following-sibling::div/span",
+    "caption": "//div[contains(@class,'caption')]/ul/li/span",
+    "jobPostedTime": "//div[contains(@class,'scaffold-layout__detail')]/descendant::div[contains(@class,'primary-description-container')]/descendant::span[contains(@class,'tvm__text tvm__text--positive')]/strong",
+    "jobPostedTime1": "//div[contains(@class,'scaffold-layout__detail')]/descendant::div[contains(@class,'primary-description-container')]/descendant::span[contains(@class,'tvm__text tvm__text--positive')]/strong/span"
+}

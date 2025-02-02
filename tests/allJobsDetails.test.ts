@@ -18,10 +18,14 @@ type JobDetail = {
   Other: string;
 };
 
-// Initialize the CSV file with headers
-const csvFilePath = './jobDetails_all.csv';
+// Initialize CSV files with headers
+const easyApplyFilePath = './easy_apply_jobs.csv';
+const applyFilePath = './apply_jobs.csv';
 const csvHeader = Object.keys({} as JobDetail).join(',');
-fs.writeFileSync(csvFilePath, csvHeader + '\n', 'utf-8');
+
+// Write headers to both CSV files
+fs.writeFileSync(easyApplyFilePath, csvHeader + '\n', 'utf-8');
+fs.writeFileSync(applyFilePath, csvHeader + '\n', 'utf-8');
 
 // Run tests in parallel for each keyword
 test.describe.parallel('Search and Save Jobs to CSV', () => {
@@ -53,7 +57,8 @@ test.describe.parallel('Search and Save Jobs to CSV', () => {
       }
 
       // Extract job details
-      const jobDetails: JobDetail[] = [];
+      const easyApplyJobs: JobDetail[] = [];
+      const applyJobs: JobDetail[] = [];
       const allDesignations = await page.$$(selectors.AllDesignations);
 
       for (const designation of allDesignations) {
@@ -117,25 +122,33 @@ test.describe.parallel('Search and Save Jobs to CSV', () => {
           job.Other = jobDescription?.trim() || 'N/A';
         }
 
-        jobDetails.push(job);
+        // Categorize jobs based on TypeOfApply
+        if (job.TypeOfApply.toLowerCase().includes('easy apply')) {
+          easyApplyJobs.push(job);
+        } else {
+          applyJobs.push(job);
+        }
       }
 
-      // Check if jobDetails is not empty before writing to CSV
-      if (jobDetails.length > 0) {
-        // Convert jobDetails to CSV format
-        const csvRows = jobDetails.map((job) =>
-          Object.values(job)
-            .map((value) => `"${value}"`)
-            .join(',')
-        );
+      // Function to write jobs to CSV
+      const writeJobsToCSV = (filePath: string, jobs: JobDetail[]) => {
+        if (jobs.length > 0) {
+          const csvRows = jobs.map((job) =>
+            Object.values(job)
+              .map((value) => `"${value}"`)
+              .join(',')
+          );
+          fs.appendFileSync(filePath, csvRows.join('\n') + '\n', 'utf-8');
+        }
+      };
 
-        // Append job details to the CSV file
-        fs.appendFileSync(csvFilePath, csvRows.join('\n') + '\n', 'utf-8');
+      // Write Easy Apply jobs to CSV
+      writeJobsToCSV(easyApplyFilePath, easyApplyJobs);
 
-        console.log(`Job details for "${keyword}" appended to ${csvFilePath}`);
-      } else {
-        console.log(`No jobs found for keyword: "${keyword}"`);
-      }
+      // Write Apply jobs to CSV
+      writeJobsToCSV(applyFilePath, applyJobs);
+
+      console.log(`Job details for "${keyword}" categorized and saved.`);
     });
   }
 });

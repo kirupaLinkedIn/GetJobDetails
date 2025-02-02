@@ -10,5 +10,17 @@
     "AllCompanies": "//ul/li[contains(@class,'ember')]/descendant::a/parent::div/following-sibling::div/span",
     "caption": "//div[contains(@class,'caption')]/ul/li/span",
     "jobPostedTime": "//div[contains(@class,'scaffold-layout__detail')]/descendant::div[contains(@class,'primary-description-container')]/descendant::span[contains(@class,'tvm__text tvm__text--positive')]/strong",
-    "jobPostedTime1": "//div[contains(@class,'scaffold-layout__detail')]/descendant::div[contains(@class,'primary-description-container')]/descendant::span[contains(@class,'tvm__text tvm__text--positive')]/strong/span"
+    "jobPostedTime1": "//div[contains(@class,'scaffold-layout__detail')]/descendant::div[contains(@class,'primary-description-container')]/descendant::span[contains(@class,'tvm__text tvm__text--positive')]/strong/span",
+    "EasyApply":"//button[@id='searchFilter_applyWithLinkedin']",
+    "NextButton":"//div[contains(@role,'dialog')]//following::button[contains(.,'Next')]",
+    "reviewButton":"//div[contains(@role,'dialog')]//following::button[contains(.,'Review')]",
+    "allInputfield":"//div[contains(@role,'dialog')]//descendant::input",
+    "allQuestions":"//div[contains(@role,'dialog')]//descendant::input/preceding-sibling::label",
+    "submitApplication":"//div[contains(@role,'dialog')]//descendant::button[contains(.,'Submit application')]",
+    "doneButton":"//div[contains(@role,'dialog')]//descendant::button[contains(.,'Done')]",
+    "yesRadioButton":"//div[contains(@role,'dialog')]//descendant::div[contains(@data-test-text-selectable-option,'0')]",
+    "dropdown":"//div[contains(@role,'dialog')]//descendant::select",
+    "errorMessage1":"//span[contains(.,'Please enter a valid answer')]",
+    "true":"(//select[contains(@aria-required,'true')])[1]"
+
 }

@@ -21,6 +21,10 @@
     "yesRadioButton":"//div[contains(@role,'dialog')]//descendant::div[contains(@data-test-text-selectable-option,'0')]",
     "dropdown":"//div[contains(@role,'dialog')]//descendant::select",
     "errorMessage1":"//span[contains(.,'Please enter a valid answer')]",
-    "true":"(//select[contains(@aria-required,'true')])[1]"
+    "true":"(//select[contains(@aria-required,'true')])[1]",
+    "locationInput":"//input[@autocomplete='address-level2']",
+    "searchButton":"//button[normalize-space()='Search']",
+    "nextPageButton":"//ul[contains(@class,'artdeco-pagination')]/li"
+
 
 }

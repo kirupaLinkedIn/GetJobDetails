@@ -590,5 +590,49 @@
   {
     "question": "Mobile phone number",
     "value": "8"
+  },
+  {
+    "question": "How many years of experience do you have in technical content writing?",
+    "value": "8"
+  },
+  {
+    "question": "Do you have experience writing code (Python, Java, React, etc) snippets in your work?\nDo you have experience writing code (Python, Java, React, etc) snippets in your work?\n ",
+    "value": "8"
+  },
+  {
+    "question": "What's your current CTC?",
+    "value": "8"
+  },
+  {
+    "question": "What's your expected CTC?",
+    "value": "8"
+  },
+  {
+    "question": "Do you have experience writing kids' content?\nDo you have experience writing kids' content?\n ",
+    "value": "8"
+  },
+  {
+    "question": "How many years of experience do you have in Copywriting and Content Writing role?",
+    "value": "8"
+  },
+  {
+    "question": "What is your current CTC?",
+    "value": "8"
+  },
+  {
+    "question": "What is your expected CTC?",
+    "value": "8"
+  },
+  {
+    "question": "How many years of work experience do you have with Web Authoring Tools?",
+    "value": "8"
+  },
+  {
+    "question": "How many years of work experience do you have with Technical Documentation?",
+    "value": "8"
+  },
+  {
+    "question": "Relevant years of experience in Technical Writing ?",
+    "value": "8"
   }
 ]

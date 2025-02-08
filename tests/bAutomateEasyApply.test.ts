@@ -87,11 +87,12 @@ test.describe.parallel('Automate Easy Apply with 24 hour filter', () => {
               if (applyButton) {
                 const easyApplyButton = await applyButton.textContent()
                 console.log(easyApplyButton)
-                await applyButton.click()
-              }
-
+                await applyButton.click();
               // Handle Easy Apply popup
               await handleEasyApplyPopup1(page)
+              }
+
+
             }
           } else {
             console.log('No more pages available.')
@@ -165,6 +166,7 @@ async function handleEasyApplyPopup(page: Page) {
   const progressBar = await page.locator('.artdeco-completeness-meter-linear__progress-element')
   const progressText = await page.locator('//span[@role="note"]')
 }
+
 const handleEasyApplyPopup1 = async (page: Page) => {
   console.log('Checking if Easy Apply popup is present...')
   const easyJobPopUp = await page.locator("div[role='dialog']")

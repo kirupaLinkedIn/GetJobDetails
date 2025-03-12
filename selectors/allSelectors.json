@@ -30,7 +30,8 @@
     "midSeniorLevel":"//label[contains(.,'Mid-Senior level')]",
     "ApplyFilters2": "(//button[contains(@aria-label,'Apply current filter to show')])[2]",
     "allCompanyNames":"//div[contains(@class,'artdeco-entity-lockup__subtitle ember-view')]/child::span",
-    "easyApplyBlueButton":"(//*[name()='svg']/parent::button[contains(.,'Easy Apply')])[1]"
+    "easyApplyBlueButton":"(//*[name()='svg']/parent::button[contains(.,'Easy Apply')])[1]",
+    "closeButton":"(//button[@aria-label='Dismiss'])[1]"
 
 
 

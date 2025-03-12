@@ -2,6 +2,8 @@ import { test, Page } from '@playwright/test';
 import * as selector from '../../selectors/allSelectors.json';
 import * as fs from 'fs';
 
+let page
+
 // Function to handle the Easy Apply popup
 const handleEasyApplyPopupForAdvanced = async (page: Page) => {
   const easyJobPopUp = await page.locator("div[role='dialog']");
@@ -90,15 +92,58 @@ const handleEasyApplyPopupForAdvanced = async (page: Page) => {
   }
 };
 
+const processJobListings = async () => {
+  await page.locator(selector.scrollToPagination).hover();
+  for (let i = 0; i < 10; i++) {
+    await page.mouse.wheel(0, 500);
+    await page.waitForTimeout(1000);
+  }
+
+  const allDesignations = page.locator(selector.AllDesignations);
+  const allCompanyNames = page.locator(selector.allCompanyNames);
+
+  let uniqueJobs: { [key: string]: string } = {};
+
+  if (fs.existsSync('uniqueJobs.json')) {
+    const data = fs.readFileSync('uniqueJobs.json', 'utf-8');
+    uniqueJobs = JSON.parse(data);
+  }
+
+  const count = await allDesignations.count();
+  for (let i = 0; i < count; i++) {
+    const designation = allDesignations.nth(i);
+    const companyName = allCompanyNames.nth(i);
+
+    const companyNameText = await companyName.innerText();
+
+    if (!uniqueJobs[companyNameText]) {
+      const designationText = await designation.innerText();
+      uniqueJobs[companyNameText] = designationText;
+      console.log(`Applying for: ${designationText} at ${companyNameText}`);
+
+      await designation.click();
+      const applyButton = page.locator(selector.easyApplyBlueButton);
+      if (applyButton && (await applyButton.isVisible())) {
+        await applyButton.click();
+        fs.writeFileSync('uniqueJobs.json', JSON.stringify(uniqueJobs, null, 2));
+        await handleEasyApplyPopupForAdvanced(page);
+      } else {
+        console.log('Easy Apply button not found, skipping.');
+      }
+    }
+  }
+};
+
+
 // List of job titles to search
-const listOFJobSearchTitles = ['playwright', 'Senior Automation Tester', 'qa Lead', 'quality analyst'];
+const listOFJobSearchTitles = ['qa lead'];
 
 test('Easy Apply Test for multiple job titles', async ({ browser }) => {
   const context = await browser.newContext({
     storageState: './auth.json',
   });
 
-  const page = await context.newPage();
+  page = await context.newPage();
   await page.goto('https://www.linkedin.com/feed/');
 
   for (const jobTitle of listOFJobSearchTitles) {
@@ -125,53 +170,9 @@ test('Easy Apply Test for multiple job titles', async ({ browser }) => {
     await page.locator(selector.EasyApply).click();
     await page.waitForTimeout(2000);
 
-    const processJobListings = async () => {
-      await page.locator(selector.scrollToPagination).hover();
-      for (let i = 0; i < 10; i++) {
-        await page.mouse.wheel(0, 500);
-        await page.waitForTimeout(1000);
-      }
 
-      const allDesignations = page.locator(selector.AllDesignations);
-      const allCompanyNames = page.locator(selector.allCompanyNames);
 
-      let uniqueJobs: { [key: string]: string } = {};
-
-      if (fs.existsSync('uniqueJobs.json')) {
-        const data = fs.readFileSync('uniqueJobs.json', 'utf-8');
-        uniqueJobs = JSON.parse(data);
-      }
-
-      const count = await allDesignations.count();
-      for (let i = 0; i < count; i++) {
-        const designation = allDesignations.nth(i);
-        const companyName = allCompanyNames.nth(i);
-
-        const companyNameText = await companyName.innerText();
-
-        if (!uniqueJobs[companyNameText]) {
-          const designationText = await designation.innerText();
-          uniqueJobs[companyNameText] = designationText;
-          console.log(`Applying for: ${designationText} at ${companyNameText}`);
-
-          await designation.click();
-          const applyButton = page.locator(selector.easyApplyBlueButton);
-          if (applyButton && (await applyButton.isVisible())) {
-            await applyButton.click();
-            fs.writeFileSync('uniqueJobs.json', JSON.stringify(uniqueJobs, null, 2));
-            await handleEasyApplyPopupForAdvanced(page);
-          } else {
-            console.log('Easy Apply button not found, skipping.');
-          }
-        }
-      }
-    };
-
-    await processJobListings();
-
-    while (true) {
       const nextPageButtons = await page.locator('//ul[contains(@class,"artdeco-pagination")]/li');
-      let nextFound = false;
 
       for (let i = 0; i < (await nextPageButtons.count()); i++) {
         const nextPageButton = nextPageButtons.nth(i);
@@ -179,11 +180,7 @@ test('Easy Apply Test for multiple job titles', async ({ browser }) => {
           await nextPageButton.click();
           await page.waitForTimeout(3000);
           await processJobListings();
-          nextFound = true;
-          break;
         }
       }
-      if (!nextFound) break;
-    }
   }
 });

@@ -1,638 +1,203 @@
-[
-  {
-    "question": "What is your total experience?",
-    "value": "8"
-  },
-  {
-    "question": "What is your current CTC (LPA)?",
-    "value": "8"
-  },
-  {
-    "question": "How many members you are handling currently as a QA Lead?",
-    "value": "8"
-  },
-  {
-    "question": "Total exp in Selenium?",
-    "value": "8"
-  },
-  {
-    "question": "What is your expected CTC (LPA)?",
-    "value": "8"
-  },
-  {
-    "question": "What is your official Notice Period (0 / 7/ 15 / 20 / 30 / 45 / 60 / 75 / 90) days?",
-    "value": "8"
-  },
-  {
-    "question": "Are you currently located in Bangalore?\nAre you currently located in Bangalore?\n ",
-    "value": "8"
-  },
-  {
-    "question": "Are you sure you are available for Face to Face interview in our Bangalore office (Marathahalli)?\nAre you sure you are available for Face to Face interview in our Bangalore office (Marathahalli)?\n ",
-    "value": "8"
-  },
-  {
-    "question": "Total Exp as Automation Test Lead?",
-    "value": "8"
-  },
-  {
-    "question": "Do you have experience as QA Automation Lead? ",
-    "value": "8"
-  },
-  {
-    "question": "Do you have experience in QA Automation? ",
-    "value": "8"
-  },
-  {
-    "question": "Do you have experience in team handling and dealing with client?",
-    "value": "8"
-  },
-  {
-    "question": "Do you have experience in Katelon studio?\nDo you have experience in Katelon studio?\n ",
-    "value": "8"
-  },
-  {
-    "question": "Are you interested in joining this long-term contract role?\nAre you interested in joining this long-term contract role?\n ",
-    "value": "8"
-  },
-  {
-    "question": "What is your current CTC salary in Lakh Per Annum?",
-    "value": "8"
-  },
-  {
-    "question": "What is your expected CTC salary in Lakh Per Annum (that will have PF, TDS deductions)?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Regressions, Load, Performance Tests?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Testing Tools like Zephyr/XRay ?",
-    "value": "8"
-  },
-  {
-    "question": "What are your annual salary expectations in LPA?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience you have using Provar?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience you have in Automation Testing?",
-    "value": "8"
-  },
-  {
-    "question": "Street address line 1",
-    "value": "8"
-  },
-  {
-    "question": "City\nCity\n ",
-    "value": "8"
-  },
-  {
-    "question": "State",
-    "value": "8"
-  },
-  {
-    "question": "City\nCity\n ",
-    "value": "8"
-  },
-  {
-    "question": "I don't wish to answer",
-    "value": "8"
-  },
-  {
-    "question": "Your Name",
-    "value": "8"
-  },
-  {
-    "question": "How many years of total experience do you have?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of relevant experience do you have?",
-    "value": "8"
-  },
-  {
-    "question": "How did you hear about us?\nHow did you hear about us?\n ",
-    "value": "8"
-  },
-  {
-    "question": "If other, please list source:",
-    "value": "8"
-  },
-  {
-    "question": "No",
-    "value": "8"
-  },
-  {
-    "question": "Current CTC:",
-    "value": "8"
-  },
-  {
-    "question": "Expected CTC:",
-    "value": "8"
-  },
-  {
-    "question": "Notice period:",
-    "value": "8"
-  },
-  {
-    "question": "Required Skillset:",
-    "value": "8"
-  },
-  {
-    "question": "Certification (Preferred):",
-    "value": "8"
-  },
-  {
-    "question": "I Acknowledge",
-    "value": "8"
-  },
-  {
-    "question": "MY SIGNATURE IS EVIDENCE THAT I HAVE READ AND AGREE WITH THE ABOVE STATEMENTS.",
-    "value": "8"
-  },
-  {
-    "question": "Kindly mention your Notice Period in months. (0.5 for 15 Days)",
-    "value": "8"
-  },
-  {
-    "question": "What is your current CTC?",
-    "value": "8"
-  },
-  {
-    "question": "What is your expected CTC?",
-    "value": "8"
-  },
-  {
-    "question": "Are you interested in joining this long-term contract role?\nAre you interested in joining this long-term contract role?\n ",
-    "value": "8"
-  },
-  {
-    "question": "What is your current CTC salary in Lakh Per Annum?",
-    "value": "8"
-  },
-  {
-    "question": "What is your expected CTC salary in Lakh Per Annum (that will have PF, TDS deductions)?",
-    "value": "8"
-  },
-  {
-    "question": "Manager wants someone who can join Immediately or within 15-30 days, can you join that soon ?\nManager wants someone who can join Immediately or within 15-30 days, can you join that soon ?\n ",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Java Development?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have as a Test Lead?",
-    "value": "8"
-  },
-  {
-    "question": "Do you have work experience in cutting-edge ERP technology in the pharmaceutical sector?\nDo you have work experience in cutting-edge ERP technology in the pharmaceutical sector?\n ",
-    "value": "8"
-  },
-  {
-    "question": "What is your current CTC?",
-    "value": "8"
-  },
-  {
-    "question": "What is your expected CTC?",
-    "value": "8"
-  },
-  {
-    "question": "What is your Notice Period?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have in Automation Testing?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have in Manual Testing?",
-    "value": "8"
-  },
-  {
-    "question": "If yes, who is your current employer?",
-    "value": "8"
-  },
-  {
-    "question": "If yes, please provide their name(s), their relationship to you and department(s) they work in (if known):",
-    "value": "8"
-  },
-  {
-    "question": "If yes, please provide a list/details of the potential conflict of interest:",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience do you have as a QA Engineer?",
-    "value": "8"
-  },
-  {
-    "question": "What is the duration of your current notice period?",
-    "value": "8"
-  },
-  {
-    "question": "What is your expected CTC per annum?",
-    "value": "8"
-  },
-  {
-    "question": "Years of Experience in Playwright.",
-    "value": "8"
-  },
-  {
-    "question": "Current CTC (In LPA)",
-    "value": "8"
-  },
-  {
-    "question": "Expected CTC (In LPA)",
-    "value": "8"
-  },
-  {
-    "question": "Notice Period (In days)",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with QA Automation?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Python (Programming Language)?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Robot Framework?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Bash?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with NETCONF?",
-    "value": "8"
-  },
-  {
-    "question": "City\nCity",
-    "value": "8"
-  },
-  {
-    "question": "Current company",
-    "value": "8"
-  },
-  {
-    "question": "What is your current location?",
-    "value": "8"
-  },
-  {
-    "question": "Are you related to a current DAT employee? \nAre you related to a current DAT employee? \n ",
-    "value": "8"
-  },
-  {
-    "question": "How soon will you be able to join?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Mobile Testing?",
-    "value": "8"
-  },
-  {
-    "question": "What is your overall IT experience ?",
-    "value": "8"
-  },
-  {
-    "question": "What is your total years of experience in Automation Testing? ",
-    "value": "8"
-  },
-  {
-    "question": "How soon can you Join us(In Days)?",
-    "value": "8"
-  },
-  {
-    "question": "What is your Current Salary? ",
-    "value": "8"
-  },
-  {
-    "question": "What is your Expected Salary?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of IT Services and IT Consulting experience do you currently have?",
-    "value": "8"
-  },
-  {
-    "question": "How Many years of exp do you have as Incentive Compensation & Sales Performance Management Tester??",
-    "value": "8"
-  },
-  {
-    "question": "How soon you can join(days)??",
-    "value": "8"
-  },
-  {
-    "question": "What is your CTC???",
-    "value": "8"
-  },
-  {
-    "question": "What is your ECTC???",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with SAP Products?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with SAP Implementation?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with SAP Quality Management (QM)?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Oracle Database?",
-    "value": "8"
-  },
-  {
-    "question": "API Testing",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience do you have in Automation testing",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience in Mobile testing",
-    "value": "8"
-  },
-  {
-    "question": "how many years of experience in Web testing?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have in automation testing?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with PL/SQL?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with SAP Testing?",
-    "value": "8"
-  },
-  {
-    "question": "Do you have experience with UFT (Unified Functional Testing). This is a mandatory skill. \nDo you have experience with UFT (Unified Functional Testing). This is a mandatory skill. \n ",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with FIX Protocol?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Unix or Linux ?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of Investment Management experience do you currently have?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Purchase Orders?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Stock Ledger?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Test Automation?",
-    "value": "8"
-  },
-  {
-    "question": "Are you willing to work from Manyata Tech Park (Bangalore) on a hybrid basis?",
-    "value": "8"
-  },
-  {
-    "question": "What is your notice period?",
-    "value": "8"
-  },
-  {
-    "question": "Total Year of Experience?",
-    "value": "8"
-  },
-  {
-    "question": "Relevant Experience in Salesforce Testing?",
-    "value": "8"
-  },
-  {
-    "question": "Relevant Experience in Manual Testing?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience in Automation Testing ",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience into Guidewire Automation Testing",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience into Java Selenium",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience into TestNg",
-    "value": "8"
-  },
-  {
-    "question": "Notice Period - LWD - 150225 / In Days 15",
-    "value": "8"
-  },
-  {
-    "question": "Relevant experience in Testing with Banking Domain?",
-    "value": "8"
-  },
-  {
-    "question": "Mobile phone number",
-    "value": "8"
-  },
-  {
-    "question": "Current Salary",
-    "value": "8"
-  },
-  {
-    "question": "Expected Salary",
-    "value": "8"
-  },
-  {
-    "question": "Current company",
-    "value": "8"
-  },
-  {
-    "question": "Current location",
-    "value": "8"
-  },
-  {
-    "question": "Preferred location",
-    "value": "8"
-  },
-  {
-    "question": "Years of total experience",
-    "value": "8"
-  },
-  {
-    "question": "Years of relevant experience",
-    "value": "8"
-  },
-  {
-    "question": "No",
-    "value": "8"
-  },
-  {
-    "question": "Current salary",
-    "value": "8"
-  },
-  {
-    "question": "Expected salary",
-    "value": "8"
-  },
-  {
-    "question": "10 Grade %",
-    "value": "8"
-  },
-  {
-    "question": "12 Grade %",
-    "value": "8"
-  },
-  {
-    "question": "Highest qualification name",
-    "value": "8"
-  },
-  {
-    "question": "What is your Current CTC ? ",
-    "value": "8"
-  },
-  {
-    "question": "What is your Expectations of CTC ? ",
-    "value": "8"
-  },
-  {
-    "question": "What is you are Notice Period ? ",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience do you have in Quality Analyst ? ",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Azure Databricks?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Java? ",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Rest API? ",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Pyspark? ",
-    "value": "8"
-  },
-  {
-    "question": "What is your Current CTC? ",
-    "value": "8"
-  },
-  {
-    "question": "What is your Expected CTC? ",
-    "value": "8"
-  },
-  {
-    "question": "How soon you can join us? ",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Auditing?",
-    "value": "8"
-  },
-  {
-    "question": "Is your notice period higher than 30 days?\nIs your notice period higher than 30 days?\n ",
-    "value": "8"
-  },
-  {
-    "question": "Mobile phone number",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Global System for Mobile Communications (GSM)?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Network Switches?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Test Coverage?",
-    "value": "8"
-  },
-  {
-    "question": "Mobile phone number",
-    "value": "8"
-  },
-  {
-    "question": "Mobile phone number",
-    "value": "8"
-  },
-  {
-    "question": "Mobile phone number",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience do you have in technical content writing?",
-    "value": "8"
-  },
-  {
-    "question": "Do you have experience writing code (Python, Java, React, etc) snippets in your work?\nDo you have experience writing code (Python, Java, React, etc) snippets in your work?\n ",
-    "value": "8"
-  },
-  {
-    "question": "What's your current CTC?",
-    "value": "8"
-  },
-  {
-    "question": "What's your expected CTC?",
-    "value": "8"
-  },
-  {
-    "question": "Do you have experience writing kids' content?\nDo you have experience writing kids' content?\n ",
-    "value": "8"
-  },
-  {
-    "question": "How many years of experience do you have in Copywriting and Content Writing role?",
-    "value": "8"
-  },
-  {
-    "question": "What is your current CTC?",
-    "value": "8"
-  },
-  {
-    "question": "What is your expected CTC?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Web Authoring Tools?",
-    "value": "8"
-  },
-  {
-    "question": "How many years of work experience do you have with Technical Documentation?",
-    "value": "8"
-  },
-  {
-    "question": "Relevant years of experience in Technical Writing ?",
-    "value": "8"
-  }
-]
+{
+  "What is your total experience?": "9 years",
+  "What is your current CTC (LPA)?": "26 LPA",
+  "How many members you are handling currently as a QA Lead?": "8",
+  "Total exp in Selenium?": "8 years",
+  "What is your expected CTC (LPA)?": "30 LPA",
+  "What is your official Notice Period (0 / 7/ 15 / 20 / 30 / 45 / 60 / 75 / 90) days?": "7 days",
+  "Are you currently located in Bangalore?": "yes",
+  "Are you sure you are available for Face to Face interview in our Bangalore office (Marathahalli)?": "yes",
+  "Total Exp as Automation Test Lead?": "5 years",
+  "Do you have experience as QA Automation Lead?": "yes",
+  "Do you have experience in QA Automation?": "yes",
+  "Do you have experience in team handling and dealing with client?": "yes",
+  "Do you have experience in Katelon studio?": "yes",
+  "Are you interested in joining this long-term contract role?": "yes",
+  "What is your current CTC salary in Lakh Per Annum?": "26 LPA",
+  "What is your expected CTC salary in Lakh Per Annum (that will have PF, TDS deductions)?": "30 LPA",
+  "How many years of work experience do you have with Regressions, Load, Performance Tests?": "8 years",
+  "How many years of work experience do you have with Testing Tools like Zephyr/XRay?": "8 years",
+  "What are your annual salary expectations in LPA?": "30 LPA",
+  "How many years of experience you have using Provar?": "8 years",
+  "How many years of experience you have in Automation Testing?": "8 years",
+  "Street address line 1": "123 Main St",
+  "City": "Bangalore",
+  "State": "Karnataka",
+  "I don't wish to answer": "",
+  "Your Name": "John Doe",
+  "How many years of total experience do you have?": "9 years",
+  "How many years of relevant experience do you have?": "8 years",
+  "How did you hear about us?": "LinkedIn",
+  "If other, please list source:": "",
+  "No": "8",
+  "Current CTC:": "26 LPA",
+  "Expected CTC:": "30 LPA",
+  "Notice period:": "7 days",
+  "Required Skillset:": "Selenium, Java, TestNG, Automation Testing",
+  "Certification (Preferred):": "ISTQB Certified",
+  "I Acknowledge": "yes",
+  "MY SIGNATURE IS EVIDENCE THAT I HAVE READ AND AGREE WITH THE ABOVE STATEMENTS.": "John Doe",
+  "Kindly mention your Notice Period in months. (0.5 for 15 Days)": "0.5 months",
+  "Manager wants someone who can join Immediately or within 15-30 days, can you join that soon?": "yes",
+  "How many years of work experience do you have with Java Development?": "8 years",
+  "How many years of work experience do you have as a Test Lead?": "5 years",
+  "Do you have work experience in cutting-edge ERP technology in the pharmaceutical sector?": "no",
+  "How many years of work experience do you have in Manual Testing?": "8 years",
+  "If yes, who is your current employer?": "Teamware solutions Corp",
+  "If yes, please provide their name(s), their relationship to you and department(s) they work in (if known):": "",
+  "If yes, please provide a list/details of the potential conflict of interest:": "",
+  "How many years of experience do you have as a QA Engineer?": "9 years",
+  "What is the duration of your current notice period?": "7 days",
+  "What is your expected CTC per annum?": "30 LPA",
+  "Years of Experience in Playwright.": "2 years",
+  "Current CTC (In LPA)": "26 LPA",
+  "Expected CTC (In LPA)": "30 LPA",
+  "Notice Period (In days)": "7 days",
+  "How many years of work experience do you have with QA Automation?": "8 years",
+  "How many years of work experience do you have with Python (Programming Language)?": "3 years",
+  "How many years of work experience do you have with Robot Framework?": "2 years",
+  "How many years of work experience do you have with Bash?": "3 years",
+  "How many years of work experience do you have with NETCONF?": "1 year",
+  "Current company": "ABC Corp",
+  "What is your current location?": "Bangalore",
+  "Are you related to a current DAT employee?": "no",
+  "How soon will you be able to join?": "7 days",
+  "How many years of work experience do you have with Mobile Testing?": "4 years",
+  "What is your overall IT experience?": "9 years",
+  "What is your total years of experience in Automation Testing?": "8 years",
+  "How soon can you Join us(In Days)?": "7 days",
+  "What is your Current Salary?": "26 LPA",
+  "What is your Expected Salary?": "30 LPA",
+  "How many years of IT Services and IT Consulting experience do you currently have?": "9 years",
+  "How Many years of exp do you have as Incentive Compensation & Sales Performance Management Tester?": "1 year",
+  "How soon you can join(days)?": "7 days",
+  "What is your CTC?": "8",
+  "What is your ECTC?": "30 LPA",
+  "How many years of work experience do you have with SAP Products?": "2 years",
+  "How many years of work experience do you have with SAP Implementation?": "2 years",
+  "How many years of work experience do you have with SAP Quality Management (QM)?": "2 years",
+  "How many years of work experience do you have with Oracle Database?": "3 years",
+  "API Testing": "yes",
+  "How many years of experience do you have in Automation testing?": "8 years",
+  "How many years of experience in Mobile testing?": "4 years",
+  "How many years of experience in Web testing?": "8 years",
+  "How many years of work experience do you have with PL/SQL?": "3 years",
+  "How many years of work experience do you have with SAP Testing?": "2 years",
+  "Do you have experience with UFT (Unified Functional Testing)? This is a mandatory skill.": "yes",
+  "How many years of work experience do you have with FIX Protocol?": "1 year",
+  "How many years of work experience do you have with Unix or Linux?": "3 years",
+  "How many years of Investment Management experience do you currently have?": "1 year",
+  "How many years of work experience do you have with Purchase Orders?": "2 years",
+  "How many years of work experience do you have with Stock Ledger?": "2 years",
+  "How many years of work experience do you have with Test Automation?": "8 years",
+  "Are you willing to work from Manyata Tech Park (Bangalore) on a hybrid basis?": "yes",
+  "Relevant Experience in Salesforce Testing?": "2 years",
+  "Relevant Experience in Manual Testing?": "8 years",
+  "How many years of experience into Guidewire Automation Testing?": "1 year",
+  "How many years of experience into Java Selenium?": "8 years",
+  "How many years of experience into TestNg?": "8 years",
+  "Notice Period - LWD - 150225 / In Days 15": "15 days",
+  "Relevant experience in Testing with Banking Domain?": "2 years",
+  "Mobile phone number": "8",
+  "Preferred location": "Bangalore",
+  "Years of total experience": "9 years",
+  "Years of relevant experience": "8 years",
+  "10 Grade %": "85%",
+  "12 Grade %": "90%",
+  "Highest qualification name": "Bachelor of Technology",
+  "What is your Current CTC?": "26 LPA",
+  "What is your Expectations of CTC?": "30 LPA",
+  "What is you are Notice Period?": "7 days",
+  "How many years of experience do you have in Quality Analyst?": "9 years",
+  "How many years of work experience do you have with Azure Databricks?": "1 year",
+  "How many years of work experience do you have with Java?": "8 years",
+  "How many years of work experience do you have with Rest API?": "3 years",
+  "How many years of work experience do you have with Pyspark?": "1 year",
+  "How many years of work experience do you have with Auditing?": "1 year",
+  "Is your notice period higher than 30 days?": "no",
+  "How many years of work experience do you have with Global System for Mobile Communications (GSM)?": "1 year",
+  "How many years of work experience do you have with Network Switches?": "2 years",
+  "How many years of work experience do you have with Test Coverage?": "8 years",
+  "How many years of experience do you have in technical content writing?": "2 years",
+  "Do you have experience writing code (Python, Java, React, etc) snippets in your work?": "yes",
+  "Do you have experience writing kids' content?": "no",
+  "How many years of experience do you have in Copywriting and Content Writing role?": "2 years",
+  "How many years of work experience do you have with Web Authoring Tools?": "2 years",
+  "How many years of work experience do you have with Technical Documentation?": "2 years",
+  "Relevant years of experience in Technical Writing?": "2 years",
+  "How many years of work experience do you have with Underwriting?": "1 year",
+  "How many years of work experience do you have with Mortgage Underwriting?": "1 year",
+  "How many years of work experience do you have with Mortgages?": "1 year",
+  "First name": "8",
+  "How many years of work experience do you have with Quality Engineering?": "9 years",
+  "How many years of work experience do you have with Salesforce Sales Cloud?": "2 years",
+  "How many years of work experience do you have with JSON?": "3 years",
+  "Your Over all IT Experience?": "9 years",
+  "How many years of work experience do you have with Mobile Automation?": "8",
+  "How many years of work experience do you have in SDET?": "8",
+  "How many years of work experience do you have in Automation Testing?": "8",
+  "How many years of work experience do you have with Selenium?": "8",
+  "How many years of experience do you have in Rest API?": "8",
+  "Are you okay to work on 6 months contract?": "8",
+  "What is your current job mode (WFH/WFO/Hybrid)?": "8",
+  "This position requires mandatory experience at Cypress. Please share share your exact Cypress experience (in years).": "8",
+  "Would you be comfortable with Hybrid model (3 days work-from-office: non-negotiable)?\nWould you be comfortable with Hybrid model (3 days work-from-office: non-negotiable)?\n ": "8",
+  "What is your notice period": "8",
+  "City\nCity": "8",
+  "How many years of experience do you have in relation to the duties and responsibilities of this job?\nHow many years of experience do you have in relation to the duties and responsibilities of this job?\n ": "8",
+  "How many days is your official notice period? ": "8",
+  "City\nCity\n ": "bengaluru",
+  "How many years of work experience do you have with IT Industry?": "8",
+  "How many years of work experience do you have with Automation Testing?": "8",
+  "How many years of work experience do you have with Python?": "8",
+  "ow many years of work experience do you have with Playwright?": "8",
+  "How many years of work experience do you have with Communication?": "8",
+  "How many years of work experience do you have with Tableau?": "8",
+  "How many years of work experience do you have with Salesforce.com Administration?": "8",
+  "How many years of work experience do you have with SOQL?": "8",
+  "How many years of work experience do you have with Records Management?": "8",
+  "How many years of work experience do you have with Data Privacy?": "8",
+  "How many years of work experience do you have with Project Management?": "8",
+  "How many years of work experience do you have with BFSI?": "8",
+  "UAT testing": "8",
+  "tester": "8",
+  "What is your Notice Period?": "8",
+  "What is your current CTC?": "8",
+  "What are your salary expectations?": "8",
+  "Selenium with Java": "8",
+  "What is your cctc ?": "8",
+  "What is your expected ctc ?": "8",
+  "What is your Notice period ?": "8",
+  "How many years of work experience do you have with Network Protocols?": "8",
+  "What is your level of proficiency in English?\nWhat is your level of proficiency in English?\n ": "8",
+  "Are you comfortable with 5-days a week WFO @ Bhartiya City?\nAre you comfortable with 5-days a week WFO @ Bhartiya City?\n ": "8",
+  "How many years of work experience do you have with Clinical Trial Management System (CTMS)?": "8",
+  "How many years of Health Care Provider experience do you currently have?": "8",
+  "How many years of work experience do you have with UI Testing?": "8",
+  "Are you comfortable working in a hybrid work mode? The job location is Kalyani Magnum Tech Park, JP Nagara. (3 days WFO) - IF NO, PLEASE DO NOT APPLY\nAre you comfortable working in a hybrid work mode? The job location is Kalyani Magnum Tech Park, JP Nagara. (3 days WFO) - IF NO, PLEASE DO NOT APPLY\n ": "8",
+  "You must come face to face for 3rd round of discussion. Apply only if you are willing to visit.\nYou must come face to face for 3rd round of discussion. Apply only if you are willing to visit.\n ": "8",
+  "What are you salary expectations?": "8",
+  "How many years of work experience do you have with QA Engineering?": "8",
+  "What are your salary expectations in LPA?": "8",
+  "What is your current CTC (in LPA)?": "8",
+  "How many days is your notice period?": "8",
+  "How many years of work experience do you have with Agile Environment?": "8",
+  "LinkedIn Profile": "8",
+  "Website": "8",
+  "What is the experience you have with Automation?": "8",
+  "What is your current ctc?": "8",
+  "What are your expectations?": "8",
+  "What is your notice period?": "8",
+  "How many years of expereince do you have in QA Engineering?": "8",
+  "How many years of expereince do you have in Web3/Blockchain?": "8",
+  "Are you comfortable working 6 days on-site?\nAre you comfortable working 6 days on-site?\n ": "8",
+  "What is your Notice Period (in days)?": "8",
+  "How many years of work experience do you have with Internal Audits?": "8",
+  "How many years of work experience do you have with ISO 9001?": "8",
+  "Current CTC?": "8",
+  "Expected CTC": "8",
+  "How many years of work experience do you have with Piping and Instrumentation Drawing (P&ID)?": "8",
+  "How many years of work experience do you have with SCADA?": "8",
+  "How many years of work experience do you have with Field Instruments?": "8",
+  "Please indicate the number of years you have in system test automation in the industry": "8"
+}

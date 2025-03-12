@@ -1,0 +1,74 @@
+Filled question: "How many years of experience you have working as a Quality Assurance Testing Engineer ?" with value: 8
+Filled question: "Do you have experience in Banking Domain project ? 
+Do you have experience in Banking Domain project ? 
+ " with value: 8Filled question: "Whats your current CTC ?" with value: 8Filled question: "What is your total years of IT experience?" with value: 8
+Filled question: "Do you have experience in java with selenium?" with value: 8Filled question: "How many years of work experience do you have with Rest Assured (end to end) ?" with value: 8
+Filled question: "How many years of work experience do you have with Selenium ?" with value: 8
+Filled question: "How many years of work experience do you have with core java ?" with value: 8
+Filled question: "How many years of work experience do you have with Jmeter ?" with value: 8
+Filled question: "How many years of work experience do you have with cucumber ?" with value: 8
+Filled question: "How many years of work experience do you have with AWS ?" with value: 8
+Filled question: "How many years of work experience do you have with Api Automation ?" with value: 8
+Filled question: "Is your notice period immediate to 20 days ?
+Is your notice period immediate to 20 days ?
+ " with value: 8
+Filled question: "What is your expected CTC ?" with value: 8Filled question: "What is your expected CTC salary in Lakh Per Annum (that will have PF and TDS deductions)?" with value: 8
+Filled question: "What is your current CTC salary in Lakh Per Annum?" with value: 8
+Filled question: "This is a long-term contract job, Are you fine taking up a contract job? 
+This is a long-term contract job, Are you fine taking up a contract job? 
+ " with value: 8
+Filled question: "Will you be able to work from Bangalore office in hybrid working model?
+Will you be able to work from Bangalore office in hybrid working model?
+ " with value: 8
+Filled question: "Manager wants someone who can join Immediately or within 15-30 days, can you join that soon ?
+Manager wants someone who can join Immediately or within 15-30 days, can you join that soon ?
+ " with value: 8
+Filled question: "What is your official notice period ?" with value: 8Filled question: "How many years of work experience do you have with Product Development?" with value: 8Filled question: "LinkedIn Profile" with value: 8
+Filled question: "Website" with value: 8Filled question: "What is your expected CTC salary in Lakh Per Annum (that will have PF and TDS deductions)?" with value: 8
+Filled question: "What is your current CTC salary in Lakh Per Annum?" with value: 8
+Filled question: "This is a long-term contract job, Are you fine taking up a contract job? 
+This is a long-term contract job, Are you fine taking up a contract job? 
+ " with value: 8
+Filled question: "Will you be able to work from Bangalore office in hybrid working model?
+Will you be able to work from Bangalore office in hybrid working model?
+ " with value: 8
+Filled question: "Manager wants someone who can join Immediately or within 15-30 days, can you join that soon ?
+Manager wants someone who can join Immediately or within 15-30 days, can you join that soon ?
+ " with value: 8
+Filled question: "What is your official notice period ?" with value: 8Filled question: "How many years of work experience do you have with HTML?" with value: 8
+Filled question: "How many years of Web Development experience do you currently have?" with value: 8Filled question: "How many years of experience do you have in ETL/ Data Testing?" with value: 8Filled question: "LinkedIn Profile" with value: 8
+Filled question: "What is your desired salary?" with value: 8
+Filled question: "If yes, when and which company?" with value: 8
+Filled question: "If yes, when and which company?" with value: 8
+Filled question: "No" with value: 8
+Filled question: "Legal Address - Street Address 1" with value: 8Filled question: "Manual testing experience in years" with value: 8
+Filled question: "Automation testing experience in years" with value: 8
+Filled question: "TDD experience in years" with value: 8
+Filled question: "Quality Engineering Practice experience " with value: 8
+Filled question: "CoE experience" with value: 8
+Filled question: "DevOps experience" with value: 8Filled question: "Total IT Exp" with value: 8
+Filled question: "Rel Exp in UFT Automation" with value: 8Filled question: "How many years of Java Development experience do you have (Backend)?" with value: 8
+Filled question: "What about your notice period Status? If serving mention the remaining days" with value: 8Filled question: "Current company" with value: 8
+Filled question: "Current location" with value: 8
+Filled question: "Preferred location" with value: 8
+Filled question: "Years of total experience" with value: 8
+Filled question: "Years of relevant experience" with value: 8
+Filled question: "No" with value: 8
+Filled question: "Current salary" with value: 8
+Filled question: "Expected salary" with value: 8
+Filled question: "10 Grade %" with value: 8
+Filled question: "12 Grade %" with value: 8
+Filled question: "Highest qualification name" with value: 8
+Filled question: "Highest qualification grade %" with value: 8
+Filled question: "Do you have any family member/ close relative working in Sopra Steria/ worked with Sopra Steria in the past?
+Do you have any family member/ close relative working in Sopra Steria/ worked with Sopra Steria in the past?
+ " with value: 8Filled question: "How many years of experience working as a Backend Software Engineer?" with value: 8
+Filled question: "How many years of experience working with the Mobile application Technologies?" with value: 8
+Filled question: "How many years of experience with Python?" with value: 8
+Filled question: "How many years of experience with Linux operating System?" with value: 8
+Filled question: "How many years of experience with Node.js?" with value: 8
+Filled question: "How many years of experience using source control software?" with value: 8Filled question: "How many year of experience LLM?" with value: 8
+Filled question: "What is your CTC?" with value: 8
+Filled question: "What is your expected CTC?" with value: 8
+Filled question: "How soon you can join?" with value: 8
+Filled question: "Total years experience Technical Lead" with value: 8

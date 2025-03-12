@@ -31,5 +31,5 @@ jobs:
         run: npx playwright install
 
       - name: Run Playwright tests on Chrome (headed)
-        run: npx playwright test --project=chromium --headed
+        run: npx playwright test
 
